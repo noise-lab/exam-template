@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+
+% Set variables
+\newcommand{\lecture}{CAPP 30254: Machine Learning for Public Policy}
+\newcommand{\shortlecture}{CAPP 30254}
+\newcommand{\term}{Spring 2021}
+\newcommand{\exam}{Midterm}
+
+\newcommand{\totaltime}{80} % Time for this exam
+
+% Import exam template
+% Use \usepackage[]{exam} to print the exam that students will take
+% Use \usepackage[solution]{exam} to print the solution
+\usepackage[solution]{exam}
+
+\begin{document}
+
+\cfoot{}
+
+\pagestyle{empty}
+
+% Create the title page
+\maketitle
+
+\newpage
+
+\pagestyle{fancy}
+
+\section*{Initialization}
+
+This exam will be post-processed by a computer. You answers must be contained
+within the provided answer boxes, figures or tables. When asked to provide
+your answer within a figure or table, be careful to not exceed its boundaries
+by more than a few centimeters. Bubbles must be filled out completely:
+
+\begin{center}
+\correctbubble{is correct,} \incorrectbubble{are incorrect}
+\end{center}
+
+All answers must be given within the provided circles, answer boxes, figures
+or tables. Answers written on scratch paper will not be accepted (we will
+discard any scratch paper before scanning the exams).
+
+\begin{question}{2} Fill out the \textit{Yes} bubble below to acknowledge that
+    you understand that this exam will be post-processed by a computer:
+
+\begin{center}
+I have read and understood the instructions above: \yesnoyes
+\end{center}
+
+\end{question}
+
+\newpage
+
+% Questions
+\input{examples}
+
+\end{document}
